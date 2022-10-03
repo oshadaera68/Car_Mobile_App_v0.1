@@ -1,12 +1,16 @@
-/* eslint-disable eol-last */
-import {View, Text} from 'react-native';
-import Login from './screen/Login';
 import React from 'react';
+import Login from './screen/Login';
+import Signin from './screen/Signin';
+import Loadingbar from './screen/Loadingbar';
+import { NavigationContainer } from '@react-navigation/native';
 
-export default function App() {
+function App() {
   return (
-    <View>
+    <NavigationContainer>
+      <Loadingbar />
       <Login />
-    </View>
+      <Signin />
+    </NavigationContainer>
   );
 }
+export default App;
