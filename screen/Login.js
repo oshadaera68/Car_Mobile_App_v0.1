@@ -1,7 +1,6 @@
 /* eslint-disable no-undef */
 import { Box, NativeBaseProvider, Text, Input, Button, Alert } from 'native-base';
 import { React, useState } from 'react';
-// import { Alert } from 'react-native';
 
 function Login({ navigation }) {
   const [userName, setUserName] = useState('');
