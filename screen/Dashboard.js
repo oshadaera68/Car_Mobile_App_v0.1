@@ -1,10 +1,12 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+// import { View, Text } from 'react-native';
+import React from 'react';
+import { NativeBaseProvider, Box } from 'native-base';
 
-export default function Dashboard() {
+function Dashboard({ navigation }) {
   return (
-    <View>
-      <Text>Dashboard</Text>
-    </View>
-  )
+    <NativeBaseProvider>
+      <Box alignItems="center">Hello</Box>
+    </NativeBaseProvider>
+  );
 }
+export default Dashboard;
