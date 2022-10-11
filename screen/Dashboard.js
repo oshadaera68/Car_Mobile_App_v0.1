@@ -6,7 +6,7 @@ function Dashboard({ navigation }) {
   return (
     <NativeBaseProvider>
       <Box alignItems="center">
-        <Text> Vehicle List </Text>
+        <Text fontWeight="bold" top="1"> Vehicle List </Text>
         <Image style={styles.image1} source={require('../assets/1.jpg')} alt="car image1" />
         <Button style={styles.btn} colorScheme="secondary"> Detail </Button>
         <Image style={styles.image2} source={require('../assets/1.jpg')} alt="car image1" />

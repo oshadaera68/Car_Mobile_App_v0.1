@@ -20,7 +20,6 @@ const styles = StyleSheet.create({
     sub1: {
         width: '90%',
         height: '20%',
-        // display:'flex'
     },
     image: {
         width: '100%',
@@ -31,7 +30,6 @@ const styles = StyleSheet.create({
     text: {
         color: 'black',
         fontWeight: 'bold',
-        // justifyContent:'center',
         left: '26%',
         fontSize: 20,
     },
